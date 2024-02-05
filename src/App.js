@@ -1,10 +1,16 @@
 import React from 'react';
 import './App.css';
 import MidiPlayerComponent from './Components/miditest';
+// import CloudTest from './Components/cloudinary';
 
+          
 const App = () => {
+
   return (
-    <MidiPlayerComponent />
+    <div>
+      <MidiPlayerComponent />
+      {/* <CloudTest /> */}
+    </div>
   );
 };
 
