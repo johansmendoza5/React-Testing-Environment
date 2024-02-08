@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import MidiPlayer from 'midi-player-js';
 import Soundfont from 'soundfont-player';
-import song from './MIDI-Files/Wii Channels - Mii Channel.mid';
 
 const MidiPlayerComponent = () => {
   const [player, setPlayer] = useState(null);
